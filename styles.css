@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; 
+    color: #333;
+}
+
+
+header {
+    background-image: url('https://example.com/path-to-your-farm-pink-pattern.png'); 
+    background-color: #d81b60;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 182, 193, 0.8); 
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #d81b60; 
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c2185b; 
+}
+
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('https://example.com/path-to-your-farm-pink-pattern.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+
+main h2 {
+    font-size: 2em;
+    color: #c2185b;
+    border-bottom: 2px solid #f48fb1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-image: url(https://i.pinimg.com/736x/d0/5e/d9/d05ed9838951f6fbc6e2533c38f5f052.jpg); 
+    background-color: #d81b60; 
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #f48fb1; 
+    padding-bottom: 5px;
+}
+
+
+main, footer {
+    border: 1px solid #f48fb1; 
+}
+
